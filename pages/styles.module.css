@@ -1,6 +1,7 @@
 .hero {
   height: 100%;
   width: 100%;
+  padding: 0px 10px;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../assets/banner.jpg"); */
   /* background-position: center; */
@@ -9,14 +10,14 @@
   position: absolute;
 }
 .form_box {
-  width: 380px;
+  width: 100%;
   height: 420px;
   position: relative;
-  margin: 10% auto;
+  margin: 20% auto;
   background: rgba(255, 255, 255, 1);
   box-shadow: -5px 11px 18px -8px rgba(0, 0, 0, 0.75);
-  padding: 10px;
-  border: 0;
+  padding: 10px 20px; 
+  border: 0; 
   border-radius: 6px;
   overflow: hidden;
 }
@@ -45,23 +46,23 @@
   height: 100%;
   /* background: linear-gradient(to right, #ff105f, #ffad06); */
   background-color: #6c3a85;
-  
+
   border-radius: 6px;
   transition: 0.5s;
 }
 .input_group_login {
-  top: 150px;
-  position: absolute;
-  width: 280px;
+  margin-top: 60px;
+  /* position: absolute; */
+  width: 100%;
   transition: 0.5s;
-  left: 50px;
+  /* left: 30px; */
 }
 .input_group_register {
-  top: 130px;
-  position: absolute;
-  width: 280px;
+  margin-top: 40px;
+  /* position: absolute; */
+  width: 100%;
   transition: 0.5s;
-  left: 450px;
+  /* left: 450px; */
 }
 .input_field {
   width: 100%;

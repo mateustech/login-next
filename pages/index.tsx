@@ -43,12 +43,12 @@ export default function Home() {
           <input type="password" className={style.input_field} placeholder="Password..." />
           <button type="submit" className={style.submit}>Login</button>
         </form>
-        <form id="register" className={style.input_group_register}>
+        {/* <form id="register" className={style.input_group_register}>
           <input type="text" className={style.input_field} placeholder="User id..." />
           <input type="email" className={style.input_field} placeholder="Email..." />
           <input type="text" className={style.input_field} placeholder="Password..." />
           <button type="submit" className={style.submit}>Register</button>
-        </form>
+        </form> */}
       </div>
     </div>
   )
